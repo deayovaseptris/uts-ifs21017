@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_familydino_namafamily">Nama Family</string>
+    <string name="info_familydino_deskripsi">Deskripsi Family</string>
+    <string name="info_familydino_periodehidup">Periode Hidup Family</string>
+    <string name="info_familydino_karakterfisik">Karakteristik Fisik Family</string>
+    <string name="info_familydino_habitatlingkungan">Habitat dan Lingkungan Family</string>
+    <string name="info_familydino_perilakuklasifikasi">Perilaku dan Klasifikasi Family</string>
+    <string name="info_listdino_gambarlist">Gambar Dinosaurus</string>
+    <string name="info_listdino_namalist">Nama</string>
+    <string name="info_listdino_deskripsilist">Deskripsi</string>
+    <string name="info_listdino_karakteristik">Karakteristik</string>
+    <string name="info_listdino_kelompok">Kelompok</string>
+    <string name="info_listdino_habitat">Habitat</string>
+    <string name="info_listdino_makanan">Makanan</string>
+    <string name="info_listdino_panjang">Panjang</string>
+    <string name="info_listdino_tinggi">Tinggi</string>
+    <string name="info_listdino_bobotkelemahan">Bobot dan Kelemahan</string>
+
+    <string-array name="listdino_gambarlist">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_namalist">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_deskripsilist">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_karakteristik">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_kelompok">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_habitat">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_makanan">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_panjang">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_tinggi">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="listdino_bobotkelemahan">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="familydino_namafamily">
+        <item>Sauropoda</item>
+        <item>Theropoda</item>
+        <item>Ceratopsidae</item>
+        <item>Hadrosauridae</item>
+        <item>Stegosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithopoda</item>
+        <item>Tyrannosauridae</item>
+    </string-array>
+
+    <string-array name="familydino_deskripsi">
+        <item>Sauropoda adalah dinosaurus bertubuh besar dengan leher panjang, ekor panjang, dan kaki yang kuat. Mereka merupakan herbivora pemakan tumbuhan.</item>
+        <item>Theropoda adalah dinosaurus karnivora yang cakap bergerak dengan gigi-gigi yang tajam dan cakar yang kuat.</item>
+        <item>Ceratopsidae adalah dinosaurus herbivora dengan ciri khas tanduk dan lempeng tulang di tengkoraknya.</item>
+        <item>Hadrosauridae atau dinosaurus bebek adalah dinosaurus herbivora dengan mulut berbentuk paruh bebek.</item>
+        <item>Stegosauridae adalah dinosaurus herbivora dengan ciri khas punggung berlemak dan cakar di ekornya.</item>
+        <item>Ankylosauridae adalah dinosaurus herbivora dengan tubuh dilindungi oleh lempeng tulang dan cakar yang kuat di ekornya.</item>
+        <item>Ornithopoda adalah dinosaurus herbivora dengan paruh yang mirip burung dan gigi-gigi yang rapi.</item>
+        <item>Tyrannosauridae adalah dinosaurus karnivora dengan ukuran tubuh besar, gigi-gigi yang tajam, dan cakar yang kuat.</item>
+    </string-array>
+
+    <string-array name="familydino_periodehidup">
+        <item>Hidup pada periode Jurasik hingga Kapur, sekitar 201 hingga 66 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Trias hingga Kapur, sekitar 231 hingga 66 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Kapur, sekitar 83 hingga 66 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Kapur, sekitar 90 hingga 65 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Jurasik hingga Kapur Awal, sekitar 155 hingga 150 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Kapur, sekitar 112 hingga 66 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Jurasik hingga Kapur, sekitar 163 hingga 65 juta tahun yang lalu.</item>
+        <item>Hidup pada periode Kapur, sekitar 68 hingga 66 juta tahun yang lalu.</item>
+    </string-array>
+
+    <string-array name="familydino_karakterfisik">
+        <item>Tubuh besar, leher panjang, kaki kuat, dan ekor panjang.</item>
+        <item>Beragam ukuran, dari yang kecil hingga yang besar. Biasanya memiliki kaki yang panjang dan kuat, cakar tajam, dan gigi-gigi yang runcing.</item>
+        <item>Tanduk pada hidung dan tengkorak, lempeng-kelemak-kelemak pada leher dan punggung, dan paruh mirip pelana.</item>
+        <item>Paruh yang lebar dan pipih, gigi-gigi yang rapi untuk mengunyah tumbuhan, dan beberapa spesies memiliki kresta di kepala.</item>
+        <item>Duri-duri besar di punggung, ekor bersisik dan bersenjatakan cakar, dan gigi-gigi runcing untuk mengunyah tumbuhan.</item>
+        <item>Tubuh dilindungi oleh lempeng-kelemak-kelemak, cakar kuat di ekor, dan bentuk tubuh yang rendah.</item>
+        <item>Paruh mirip burung, gigi-gigi yang rapi untuk mengunyah tumbuhan, dan beberapa spesies memiliki kaki yang panjang untuk berlari.</item>
+        <item>Tubuh besar dengan kepala besar, gigi-gigi besar dan tajam, dan kaki yang kuat.</item>
+    </string-array>
+
+    <string-array name="familydino_habitatlingkungan">
+        <item>Biasanya hidup di daerah dataran rendah, rawa-rawa, dan daerah berhutan dengan vegetasi yang cukup untuk makanan.</item>
+        <item>Menghuni berbagai habitat, mulai dari hutan hujan hingga padang rumput terbuka, tergantung pada spesiesnya.</item>
+        <item>Biasanya ditemukan di daerah dataran tinggi, padang rumput, dan hutan terbuka.</item>
+        <item>Menghuni daerah-daerah yang berair seperti dataran banjir, rawa-rawa, dan tepi sungai.</item>
+        <item>Biasanya ditemukan di dataran rendah dan hutan terbuka.</item>
+        <item>Biasanya menghuni daerah-daerah terbuka dan berhutan.</item>
+        <item>Biasanya ditemukan di padang rumput dan daerah berhutan.</item>
+        <item>Biasanya mendiami daerah-daerah terbuka dan padang rumput.</item>
+    </string-array>
+
+    <string-array name="familydino_perilakuklasifikasi">
+        <item>Sauropoda diduga memiliki perilaku sosial, hidup dalam kawanan besar, dan mungkin melakukan migrasi musiman. Termasuk dalam ordo Saurischia, subordo Sauropodomorpha, dan infraordo Sauropoda.</item>
+        <item>Biasanya berburu secara soliter atau dalam kelompok kecil, meskipun ada juga bukti kerjasama dalam berburu pada beberapa spesies. Termasuk dalam ordo Saurischia dan subordo Theropoda.</item>
+        <item>Mungkin hidup dalam kelompok untuk melindungi diri dari predator dan mencari makan bersama-sama. Termasuk dalam ordo Ornithischia, subordo Marginocephalia, dan infraordo Ceratopsia.</item>
+        <item>Diperkirakan hidup dalam kelompok besar, mungkin melakukan migrasi musiman, dan menggunakan suara untuk komunikasi antarindividu. Termasuk dalam ordo Ornithischia dan subordo Ornithopoda.</item>
+        <item>Mungkin menggunakan duri dan cakar di ekornya untuk pertahanan diri dan komunikasi visual dengan anggota sejenis. Termasuk dalam ordo Ornithischia dan subordo Stegosauria.</item>
+        <item>Diperkirakan memiliki perilaku defensif dan mungkin menggunakan cakar di ekornya untuk pertahanan diri. Termasuk dalam ordo Ornithischia dan subordo Ankylosauria.</item>
+        <item>Mungkin hidup dalam kelompok besar dan menggunakan suara untuk komunikasi antarindividu. Termasuk dalam ordo Ornithischia dan subordo Ornithopoda.</item>
+        <item>Dipercaya sebagai predator puncak dalam rantai makanan, berburu secara soliter atau dalam kelompok kecil. Termasuk dalam ordo Saurischia dan subordo Theropoda.</item>
+    </string-array>
+
+</resources>
