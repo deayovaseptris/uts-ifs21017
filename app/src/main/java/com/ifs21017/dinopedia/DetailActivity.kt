@@ -1,13 +1,10 @@
 package com.ifs21017.dinopedia
 
-import android.os.Build
-import android.os.Bundle
-import android.view.MenuItem
-import android.view.Menu
 import android.content.Intent
+import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.ifs21017.dinopedia.databinding.ActivityDetailBinding
 
@@ -21,28 +18,27 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        dinoFamily = if (Build.VERSION.SDK_INT >= 33) {
-            intent.getParcelableExtra(EXTRA_DINOFAMILY, DinoFamily::class.java)
-        } else {
-            @Suppress("DEPRECATION")
-            intent.getParcelableExtra(EXTRA_DINOFAMILY)
-        }
+        // Mendapatkan data DinoFamily dari intent
+        dinoFamily = intent.getParcelableExtra(EXTRA_DINOFAMILY)
 
+        // Menampilkan tombol back di ActionBar
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        if (dinoFamily != null) {
-            supportActionBar?.title = "${dinoFamily!!.namafamily}"
-            loadData(dinoFamily!!)
-        } else {
-            finish()
-        }
 
-        val btnLogin = findViewById<Button>(R.id.btnKlasifikasi)
+        // Jika data DinoFamily tidak null, maka tampilkan detailnya
+        dinoFamily?.let {
+            supportActionBar?.title = it.namafamily
+            loadData(it)
+        } ?: finish() // Jika data DinoFamily null, maka tutup activity
 
-        btnLogin.setOnClickListener {
-            val intent = Intent(this@DetailActivity, MainActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+        // Mendapatkan referensi button
+        val btnKlasifikasi = findViewById<Button>(R.id.btnKlasifikasi)
+
+        // Menambahkan listener klik pada button
+        btnKlasifikasi.setOnClickListener {
+            // Pindah ke activity MainDino dengan membawa nama family sebagai data tambahan
+            val intent = Intent(this@DetailActivity, MainDino::class.java)
+            intent.putExtra(MainDino.EXTRA_SELECTED_FAMILY, dinoFamily?.namafamily)
             startActivity(intent)
-            finish()
         }
     }
 
@@ -52,20 +48,21 @@ class DetailActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
+        return when (item.itemId) {
             android.R.id.home -> {
                 finish()
-                return true
+                true
             }
             R.id.action_share -> {
                 shareContent()
-                return true
+                true
             }
+            else -> super.onOptionsItemSelected(item)
         }
-        return super.onOptionsItemSelected(item)
     }
 
     private fun shareContent() {
+        // Membuat intent untuk berbagi informasi tentang DinoFamily
         val shareIntent = Intent(Intent.ACTION_SEND)
         shareIntent.type = "text/plain"
         val shareMessage = """
@@ -81,6 +78,7 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun loadData(dinoFamily: DinoFamily) {
+        // Memuat data DinoFamily ke dalam tampilan
         binding.ivDetailNamafamily.text = dinoFamily.namafamily
         binding.tvDetailDeskripsi.text = dinoFamily.deskripsi
         binding.tvDetailPeriodehidup.text = dinoFamily.periodehidup
@@ -90,6 +88,6 @@ class DetailActivity : AppCompatActivity() {
     }
 
     companion object {
-        const val EXTRA_DINOFAMILY = "extra_dinofamily"
+        const val EXTRA_DINOFAMILY = "EXTRA_DINOFAMILY"
     }
 }

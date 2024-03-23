@@ -1,130 +1,221 @@
 <resources>
     <string name="app_name">Dino Pedia</string>
-    <string name="info_familydino_namafamily">Nama Family</string>
-    <string name="info_familydino_deskripsi">Deskripsi Family</string>
-    <string name="info_familydino_periodehidup">Periode Hidup Family</string>
-    <string name="info_familydino_karakterfisik">Karakteristik Fisik Family</string>
-    <string name="info_familydino_habitatlingkungan">Habitat dan Lingkungan Family</string>
-    <string name="info_familydino_perilakuklasifikasi">Perilaku dan Klasifikasi Family</string>
-    <string name="info_listdino_gambarlist">Gambar Dinosaurus</string>
-    <string name="info_listdino_namalist">Nama</string>
-    <string name="info_listdino_deskripsilist">Deskripsi</string>
-    <string name="info_listdino_karakteristik">Karakteristik</string>
-    <string name="info_listdino_kelompok">Kelompok</string>
-    <string name="info_listdino_habitat">Habitat</string>
-    <string name="info_listdino_makanan">Makanan</string>
-    <string name="info_listdino_panjang">Panjang</string>
-    <string name="info_listdino_tinggi">Tinggi</string>
-    <string name="info_listdino_bobotkelemahan">Bobot dan Kelemahan</string>
+    <string name="info_familydino_namafamily">Nama</string>
+    <string name="info_familydino_deskripsi">Deskripsi</string>
+    <string name="info_familydino_periodehidup">Periode Hidup</string>
+    <string name="info_familydino_karakterfisik">Karakteristik Fisik</string>
+    <string name="info_familydino_habitatlingkungan">Habitat dan Lingkungan</string>
+    <string name="info_familydino_perilakuklasifikasi">Perilaku dan Klasifikasi</string>
+    <string name="info_dino_gambardino">Gambar Dinosaurus</string>
+    <string name="info_dino_namadino">Nama</string>
+    <string name="info_dino_deskripsidino">Deskripsi</string>
+    <string name="info_dino_karakteristikdino">Karakteristik</string>
+    <string name="info_dino_kelompok">Kelompok</string>
 
-    <string-array name="listdino_gambarlist">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string name="info_dino_habitat">Habitat</string>
+    <string name="info_dino_makanan">Makanan</string>
+    <string name="info_dino_panjang">Panjang</string>
+    <string name="info_dino_tinggi">Tinggi</string>
+    <string name="info_dino_bobotkelemahan">Bobot dan Kelemahan</string>
+
+    <string-array name="dino_gambardino">
+        <item>@drawable/braquiosaurus</item>
+        <item>@drawable/diplodocus</item>
+        <item>@drawable/argentinosaurus</item>
+        <item>@drawable/velociraptor</item>
+        <item>@drawable/spinosaurus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/edmontosaurus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/stegosaurus</item>
+        <item>@drawable/huayangosaurus</item>
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/nodosaurus</item>
+        <item>@drawable/iguanodon</item>
+        <item>@drawable/hadrosaurus</item>
+        <item>@drawable/tyrannosaurus_rex</item>
+        <item>@drawable/albertosaurus</item>
     </string-array>
 
-    <string-array name="listdino_namalist">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_namadino">
+        <item>Brachiosaurus</item>
+        <item>Diplodocus</item>
+        <item>Argentinosaurus</item>
+        <item>Velociraptor</item>
+        <item>Spinosaurus</item>
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Edmontosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Stegosaurus</item>
+        <item>Huayangosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Nodosaurus</item>
+        <item>Iguanodon</item>
+        <item>Hadrosaurus</item>
+        <item>Tyrannosaurus rex</item>
+        <item>Albertosaurus</item>
     </string-array>
 
-    <string-array name="listdino_deskripsilist">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_deskripsidino">
+        <item>Brachiosaurus adalah salah satu dinosaurus bertubuh besar dengan leher panjang dan kepala yang besar. Mereka merupakan herbivora yang hidup di periode Jurassic.</item>
+        <item>Diplodocus adalah sauropoda yang memiliki ekor panjang dan leher yang relatif pendek.</item>
+        <item>Argentinosaurus adalah salah satu jenis sauropoda terbesar yang pernah hidup.</item>
+        <item>Velociraptor adalah dinosaurus theropoda yang memiliki ciri khas cakar besar dan lincah dalam berburu.</item>
+        <item>Spinosaurus adalah dinosaurus theropoda yang memiliki ciri khas sail-shaped pada punggungnya.</item>
+        <item>Triceratops adalah dinosaurus herbivora yang memiliki tanduk dan lempengan pada tengkoraknya.</item>
+        <item>Styracosaurus memiliki ciri khas tanduk yang tersebar di sekitar cakar dan tubuh yang dilengkapi dengan perisai tulang.</item>
+        <item>Edmontosaurus adalah dinosaurus berukuran sedang dengan ciri khas paruh seperti bebek dan ekor yang panjang.</item>
+        <item>Parasaurolophus memiliki ciri khas "sudut trompet" di atas kepalanya dan tubuh yang panjang dengan ekor yang ramping.</item>
+        <item>Stegosaurus memiliki ciri khas punggung berderet-derek berduri dan tubuh yang dilengkapi dengan pelindung.</item>
+        <item>Huayangosaurus adalah dinosaurus berukuran kecil dengan ciri khas punggung berduri dan bentuk tubuh yang ringkas.</item>
+        <item>Ankylosaurus memiliki ciri khas tubuh yang dilindungi oleh pelat tulang dan alat pertahanan berbentuk seperti gada di ekor.</item>
+        <item>Nodosaurus adalah dinosaurus bertubuh kecil dengan ciri khas pelat tulang yang melindungi tubuhnya.</item>
+        <item>Iguanodon memiliki ciri khas gigi yang tajam, kaki yang kuat, dan kemampuan bergerak dengan cepat.</item>
+        <item>Hadrosaurus adalah dinosaurus berukuran sedang dengan ciri khas paruh seperti bebek dan ekor yang panjang.</item>
+        <item>Tyrannosaurus rex adalah dinosaurus karnivora raksasa dengan gigi yang besar dan cakar yang kuat.</item>
+        <item>Albertosaurus adalah dinosaurus mirip Tyrannosaurus rex dengan ukuran yang sedikit lebih kecil dan cakar yang lebih panjang.</item>
     </string-array>
 
-    <string-array name="listdino_karakteristik">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_karakteristikdino">
+        <item>Brachiosaurus memiliki tubuh besar, leher panjang, dan cakar besar yang digunakan untuk meraih daun-dauran di pohon-pohon tinggi.</item>
+        <item>Memiliki ekor yang panjang dan leher yang relatif pendek dibandingkan dengan badannya.</item>
+        <item>Memiliki tubuh yang besar dan berat dengan kaki yang kokoh.</item>
+        <item>Dilengkapi dengan cakar yang besar dan lincah dalam bergerak.</item>
+        <item>Dilengkapi dengan sail-shaped pada punggungnya dan memiliki gigi yang tajam.</item>
+        <item>Dilengkapi dengan tanduk dan lempengan pada tengkoraknya serta memiliki tubuh yang besar.</item>
+        <item>Tanduk tersebar, perisai tulang, ukuran sedang.</item>
+        <item>Paruh seperti bebek, ukuran sedang, ekor panjang.</item>
+        <item>"Sudut trompet", tubuh panjang, ekor ramping.</item>
+        <item>Punggung berduri, pelindung tubuh, ukuran sedang.</item>
+        <item>Punggung berduri, ukuran kecil, bentuk tubuh ringkas.</item>
+        <item>Pelat tulang, gada ekor, bentuk tubuh besar.</item>
+        <item>Pelat tulang, tubuh kecil, bentuk tubuh ringkas.</item>
+        <item>Gigi tajam, kaki kuat, gerakan cepat.</item>
+        <item>Paruh seperti bebek, ukuran sedang, ekor panjang.</item>
+        <item>Gigi besar, cakar kuat, ukuran besar.</item>
+        <item>Ukuran sedang, cakar panjang, mirip dengan T. rex.</item>
     </string-array>
 
-    <string-array name="listdino_kelompok">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_kelompok">
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Theropoda</item>
+        <item>Theropoda</item>
+        <item>Ceratopsidae</item>
+        <item>Ceratopsidae</item>
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Stegosauridae</item>
+        <item>Stegosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithopoda</item>
+        <item>Ornithopoda</item>
+        <item>Tyrannosauridae</item>
+        <item>Tyrannosauridae</item>
     </string-array>
 
-    <string-array name="listdino_habitat">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_habitat">
+        <item>Daerah yang didominasi oleh tanaman dan pohon-pohon tinggi.</item>
+        <item>Umumnya hidup di dataran rendah dan lembap.</item>
+        <item>Umumnya hidup di daerah yang luas dengan vegetasi yang melimpah.</item>
+        <item>Umumnya hidup di daerah daratan dengan banyak vegetasi.</item>
+        <item>Umumnya hidup di daerah rawa atau daerah berair.</item>
+        <item>Daerah berhutan, padang rumput.</item>
+        <item>Padang rumput, daerah berhutan.</item>
+        <item>Daerah berawa, daerah pesisir.</item>
+        <item>Daerah berawa, hutan rawa.</item>
+        <item>Hutan, daerah berhutan belantara.</item>
+        <item>Daerah berbukit, hutan rawa.</item>
+        <item>Daerah berbukit, padang rumput.</item>
+        <item>Daerah berawa, daerah berbukit.</item>
+        <item>Hutan, daerah berhutan belantara.</item>
+        <item>Daerah berawa, hutan rawa.</item>
+        <item>Daerah berhutan, dataran tinggi.</item>
+        <item>Daerah berhutan, daerah berbukit.</item>
     </string-array>
 
-    <string-array name="listdino_makanan">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_makanan">
+        <item>Tumbuhan, terutama daun-dauran dan tanaman berkayu.</item>
+        <item>Tumbuhan seperti dedaunan dan pucuk-pucuk tanaman.</item>
+        <item>Tumbuhan seperti pohon-pohon besar.</item>
+        <item>Biasanya memburu hewan-hewan kecil dan reptil lainnya.</item>
+        <item>Memakan ikan dan hewan-hewan kecil lainnya.</item>
+        <item>Herbivora yang memakan tumbuhan rendah seperti rumput dan dedaunan.</item>
+        <item>Dedahan tumbuhan seperti semak dan pohon kecil.</item>
+        <item>Dedahan tumbuhan seperti tanaman air dan semak.</item>
+        <item>Dedahan tumbuhan seperti daun dan cabang.</item>
+        <item>Dedahan tumbuhan seperti semak dan tanaman rendah.</item>
+        <item>Dedahan tumbuhan seperti semak dan pohon kecil.</item>
+        <item>Dedahan tumbuhan seperti semak dan pohon rendah.</item>
+        <item>Dedahan tumbuhan seperti semak dan tanaman rendah.</item>
+        <item>Dedahan tumbuhan seperti dedaunan dan tunas.</item>
+        <item>Dedahan tumbuhan seperti daun dan cabang.</item>
+        <item>Mamalia besar, dinosaurus lain, hewan herbivora.</item>
+        <item>Mamalia kecil, hewan herbivora, dinosaurus lain.</item>
     </string-array>
 
-    <string-array name="listdino_panjang">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_panjang">
+        <item>Sekitar 18-22 meter.</item>
+        <item>Sekitar 25-27 meter.</item>
+        <item>Sekitar 30-35 meter.</item>
+        <item>Sekitar 1,8 meter.</item>
+        <item>Sekitar 12-18 meter.</item>
+        <item>Sekitar 8-9 meter.</item>
+        <item>Sekitar 5-6 meter.</item>
+        <item>Sekitar 9-12 meter.</item>
+        <item>Sekitar 9-10 meter.</item>
+        <item>Sekitar 9 meter.</item>
+        <item>Sekitar 5-6 meter.</item>
+        <item>Sekitar 6-7 meter.</item>
+        <item>Sekitar 5-6 meter.</item>
+        <item>Sekitar 9-10 meter.</item>
+        <item>Sekitar 7-8 meter.</item>
+        <item>Sekitar 12-13 meter.</item>
+        <item>Sekitar 8-9 meter.</item>
     </string-array>
 
-    <string-array name="listdino_tinggi">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_tinggi">
+        <item>Sekitar 9-12 meter.</item>
+        <item>Sekitar 4-5 meter pada bagian bahu.</item>
+        <item>Sekitar 8-9 meter pada bagian bahu.</item>
+        <item>Sekitar 0,5-0,6 meter pada pinggang.</item>
+        <item>Sekitar 4-5 meter pada pinggang.</item>
+        <item>Sekitar 2,5-3 meter pada bahu.</item>
+        <item>Sekitar 2,5-3 meter.</item>
+        <item>Sekitar 4-5 meter.</item>
+        <item>Sekitar 3-4 meter.</item>
+        <item>Sekitar 4 meter.</item>
+        <item>Sekitar 2-3 meter.</item>
+        <item>Sekitar 2-3 meter.</item>
+        <item>Sekitar 2-3 meter.</item>
+        <item>Sekitar 4-5 meter.</item>
+        <item>Sekitar 3-4 meter.</item>
+        <item>Sekitar 4-6 meter.</item>
+        <item>Sekitar 3-4 meter.</item>
     </string-array>
 
-    <string-array name="listdino_bobotkelemahan">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="dino_bobotkelemahan">
+        <item>Diperkirakan antara 30 hingga 80 ton. Tubuh besar membuatnya rentan terhadap kekurangan pangan dan predator.</item>
+        <item>Beratnya sekitar 10-16 ton. Kemungkinan rentan terhadap serangan predator karena ukurannya yang besar.</item>
+        <item>Beratnya sekitar 60-100 ton. Rentan terhadap kekurangan pangan karena kebutuhan makanan yang besar.</item>
+        <item>Beratnya sekitar 15-20 kg. Ukuran tubuh yang relatif kecil membuatnya rentan terhadap serangan predator lain yang lebih besar.</item>
+        <item>Beratnya sekitar 7-20 ton. Rentan terhadap persaingan sumber daya dengan dinosaurus lain di habitatnya.</item>
+        <item>Beratnya sekitar 6-12 ton. Rentan terhadap serangan predator karena ukurannya yang besar dan kikir pendek pada kaki belakangnya.</item>
+        <item>Sekitar 2-3 ton. Rentan terhadap serangan predator saat mencari makan.</item>
+        <item>Sekitar 4-5 ton. Rentan terhadap perubahan habitat dan kekurangan air.</item>
+        <item>Sekitar 2-3 ton. Rentan terhadap serangan predator saat mencari makan.</item>
+        <item>Sekitar 2-3 ton. Rentan terhadap serangan predator di bagian perut.</item>
+        <item>Sekitar 1-2 ton. Rentan terhadap predator yang lebih besar.</item>
+        <item>Sekitar 5-6 ton. Rentan terhadap serangan predator di bagian perut.</item>
+        <item>Sekitar 2-3 ton. Rentan terhadap serangan predator saat mencari makan.</item>
+        <item>Sekitar 3-4 ton. Rentan terhadap serangan predator saat mencari makan.</item>
+        <item>Sekitar 2-3 ton. Rentan terhadap perubahan habitat dan serangan predator.</item>
+        <item>Sekitar 8-9 ton. Rentan terhadap luka parah di bagian perut dan tungkai.</item>
+        <item>Sekitar 4-5 ton.Rentan terhadap serangan dari predator yang lebih besar.</item>
     </string-array>
 
     <string-array name="familydino_namafamily">
